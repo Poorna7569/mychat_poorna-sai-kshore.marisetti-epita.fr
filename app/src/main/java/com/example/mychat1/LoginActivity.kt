@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import org.json.JSONObject
@@ -20,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
         val etUsername = findViewById<EditText>(R.id.etUsername)
         val etPassword = findViewById<EditText>(R.id.etPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
-        val btnRegister = findViewById<Button>(R.id.btnRegister)
+        val tvRegister = findViewById<TextView>(R.id.btnRegister)
 
         btnLogin.setOnClickListener {
             val username = etUsername.text.toString().trim()
@@ -33,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-        btnRegister.setOnClickListener {
+        tvRegister.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
@@ -74,8 +75,21 @@ class LoginActivity : AppCompatActivity() {
                         finish()
                     }
                 } else {
+                    val errorResponse = try {
+                        conn.errorStream.bufferedReader().readText()
+                    } catch (e: Exception) {
+                        "No error details"
+                    }
+                    
+                    val errorMessage = when (responseCode) {
+                        401 -> "Invalid username or password"
+                        409 -> "User already exists or conflict occurred"
+                        500 -> "Server error - try again later"
+                        else -> "Login failed: $responseCode - $errorResponse"
+                    }
+                    
                     runOnUiThread {
-                        Toast.makeText(this, "Login failed: $responseCode", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
                     }
                 }
 

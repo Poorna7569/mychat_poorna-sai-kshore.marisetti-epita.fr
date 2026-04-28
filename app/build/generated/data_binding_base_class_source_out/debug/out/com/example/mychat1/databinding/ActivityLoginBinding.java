@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -24,7 +25,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button btnLogin;
 
   @NonNull
-  public final Button btnRegister;
+  public final TextView btnRegister;
 
   @NonNull
   public final EditText etPassword;
@@ -33,7 +34,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText etUsername;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
-      @NonNull Button btnRegister, @NonNull EditText etPassword, @NonNull EditText etUsername) {
+      @NonNull TextView btnRegister, @NonNull EditText etPassword, @NonNull EditText etUsername) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegister = btnRegister;
@@ -75,7 +76,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.btnRegister;
-      Button btnRegister = ViewBindings.findChildViewById(rootView, id);
+      TextView btnRegister = ViewBindings.findChildViewById(rootView, id);
       if (btnRegister == null) {
         break missingId;
       }

@@ -2986,6 +2986,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_rounded
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3177,9 +3178,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnJoin
-id btnLeave
+id btnBack
 id btnLogin
+id btnMembers
+id btnNewChannel
 id btnRegister
 id btnSend
 id buttonPanel
@@ -3562,8 +3564,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvChannelDesc
 id tvChannelName
 id tvLoginLink
+id tvMemberCount
 id unchecked
 id uniform
 id unlabeled
@@ -3724,6 +3728,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout list_item_channel
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

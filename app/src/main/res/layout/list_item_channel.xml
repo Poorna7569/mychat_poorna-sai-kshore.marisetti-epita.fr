@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Channel Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Channel Name -->
+            <TextView
+                android:id="@+id/tvChannelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# general"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#1F2937" />
+
+            <!-- Channel Description -->
+            <TextView
+                android:id="@+id/tvChannelDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main discussion channel"
+                android:textSize="13sp"
+                android:textColor="#6B7280"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- Member Count -->
+        <TextView
+            android:id="@+id/tvMemberCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="42"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#6B7280"
+            android:layout_marginStart="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

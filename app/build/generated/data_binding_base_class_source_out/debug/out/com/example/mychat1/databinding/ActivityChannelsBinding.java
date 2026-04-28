@@ -4,6 +4,7 @@ package com.example.mychat1.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
@@ -20,10 +21,15 @@ public final class ActivityChannelsBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button btnNewChannel;
+
+  @NonNull
   public final ListView lvChannels;
 
-  private ActivityChannelsBinding(@NonNull LinearLayout rootView, @NonNull ListView lvChannels) {
+  private ActivityChannelsBinding(@NonNull LinearLayout rootView, @NonNull Button btnNewChannel,
+      @NonNull ListView lvChannels) {
     this.rootView = rootView;
+    this.btnNewChannel = btnNewChannel;
     this.lvChannels = lvChannels;
   }
 
@@ -54,13 +60,19 @@ public final class ActivityChannelsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnNewChannel;
+      Button btnNewChannel = ViewBindings.findChildViewById(rootView, id);
+      if (btnNewChannel == null) {
+        break missingId;
+      }
+
       id = R.id.lvChannels;
       ListView lvChannels = ViewBindings.findChildViewById(rootView, id);
       if (lvChannels == null) {
         break missingId;
       }
 
-      return new ActivityChannelsBinding((LinearLayout) rootView, lvChannels);
+      return new ActivityChannelsBinding((LinearLayout) rootView, btnNewChannel, lvChannels);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

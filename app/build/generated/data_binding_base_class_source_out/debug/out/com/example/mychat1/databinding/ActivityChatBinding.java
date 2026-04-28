@@ -23,10 +23,10 @@ public final class ActivityChatBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnJoin;
+  public final TextView btnBack;
 
   @NonNull
-  public final Button btnLeave;
+  public final TextView btnMembers;
 
   @NonNull
   public final Button btnSend;
@@ -40,16 +40,21 @@ public final class ActivityChatBinding implements ViewBinding {
   @NonNull
   public final TextView tvChannelName;
 
-  private ActivityChatBinding(@NonNull LinearLayout rootView, @NonNull Button btnJoin,
-      @NonNull Button btnLeave, @NonNull Button btnSend, @NonNull EditText etMessage,
-      @NonNull ListView lvMessages, @NonNull TextView tvChannelName) {
+  @NonNull
+  public final TextView tvMemberCount;
+
+  private ActivityChatBinding(@NonNull LinearLayout rootView, @NonNull TextView btnBack,
+      @NonNull TextView btnMembers, @NonNull Button btnSend, @NonNull EditText etMessage,
+      @NonNull ListView lvMessages, @NonNull TextView tvChannelName,
+      @NonNull TextView tvMemberCount) {
     this.rootView = rootView;
-    this.btnJoin = btnJoin;
-    this.btnLeave = btnLeave;
+    this.btnBack = btnBack;
+    this.btnMembers = btnMembers;
     this.btnSend = btnSend;
     this.etMessage = etMessage;
     this.lvMessages = lvMessages;
     this.tvChannelName = tvChannelName;
+    this.tvMemberCount = tvMemberCount;
   }
 
   @Override
@@ -79,15 +84,15 @@ public final class ActivityChatBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnJoin;
-      Button btnJoin = ViewBindings.findChildViewById(rootView, id);
-      if (btnJoin == null) {
+      id = R.id.btnBack;
+      TextView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
         break missingId;
       }
 
-      id = R.id.btnLeave;
-      Button btnLeave = ViewBindings.findChildViewById(rootView, id);
-      if (btnLeave == null) {
+      id = R.id.btnMembers;
+      TextView btnMembers = ViewBindings.findChildViewById(rootView, id);
+      if (btnMembers == null) {
         break missingId;
       }
 
@@ -115,8 +120,14 @@ public final class ActivityChatBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityChatBinding((LinearLayout) rootView, btnJoin, btnLeave, btnSend, etMessage,
-          lvMessages, tvChannelName);
+      id = R.id.tvMemberCount;
+      TextView tvMemberCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvMemberCount == null) {
+        break missingId;
+      }
+
+      return new ActivityChatBinding((LinearLayout) rootView, btnBack, btnMembers, btnSend,
+          etMessage, lvMessages, tvChannelName, tvMemberCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

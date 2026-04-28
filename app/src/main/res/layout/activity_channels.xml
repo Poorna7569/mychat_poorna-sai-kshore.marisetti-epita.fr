@@ -3,18 +3,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:background="#F9FAFB">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Channels"
-        android:textSize="24sp" />
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="#6366F1">
 
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Channels"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="➕"
+            android:textSize="24sp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- Channels List -->
     <ListView
         android:id="@+id/lvChannels"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:divider="#E5E7EB"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:padding="0dp" />
+
+    <!-- New Channel Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btnNewChannel"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:text="➕ New Channel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="#E0E7FF"
+            android:textColor="#6366F1" />
+
+    </LinearLayout>
 
 </LinearLayout>

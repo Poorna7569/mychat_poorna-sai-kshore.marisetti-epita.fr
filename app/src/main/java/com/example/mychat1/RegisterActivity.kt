@@ -60,13 +60,38 @@ class RegisterActivity : AppCompatActivity() {
                 val responseCode = conn.responseCode
 
                 if (responseCode == 200 || responseCode == 201) {
+                    val response = conn.inputStream.bufferedReader().readText()
+                    val token = try {
+                        JSONObject(response).getString("token")
+                    } catch (e: Exception) {
+                        null
+                    }
+                    if (token != null) {
+                        val pref = getSharedPreferences("MyChat", MODE_PRIVATE)
+                        val editor = pref.edit()
+                        editor.putString("token", token)
+                        editor.apply()
+                    }
                     runOnUiThread {
                         Toast.makeText(this, "Registration success", Toast.LENGTH_SHORT).show()
                         finish()
                     }
                 } else {
+                    val errorResponse = try {
+                        conn.errorStream.bufferedReader().readText()
+                    } catch (e: Exception) {
+                        "No error details"
+                    }
+                    
+                    val errorMessage = when (responseCode) {
+                        400 -> "Invalid input - check username and password"
+                        409 -> "Username already exists - choose a different one"
+                        500 -> "Server error - try again later"
+                        else -> "Registration failed: $responseCode - $errorResponse"
+                    }
+                    
                     runOnUiThread {
-                        Toast.makeText(this, "Register failed: $responseCode", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
                     }
                 }
 
