@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnJoin
+id btnLeave
+id btnLogin
+id btnRegister
+id btnSend
+id etMessage
+id etPassword
+id etUsername
+id lvChannels
+id lvMessages
+id main
+id tvChannelName
+id tvLoginLink
+layout activity_channels
+layout activity_chat
+layout activity_login
+layout activity_main
+layout activity_register
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Mychat1
+style Theme.Mychat1
+xml backup_rules
+xml data_extraction_rules
