@@ -41,7 +41,7 @@ class RegisterActivity : AppCompatActivity() {
     private fun register(username: String, psw: String) {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/register")
+                val url = URL("http://mychat.fgontier.fr/register")
                 val conn = url.openConnection() as HttpURLConnection
 
                 conn.requestMethod = "POST"

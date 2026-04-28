@@ -56,7 +56,7 @@ class ChatActivity : AppCompatActivity() {
     private fun fetchMessages() {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/channels/$channelName/messages")
+                val url = URL("http://mychat.fgontier.fr/channels/$channelName/messages")
                 val conn = url.openConnection() as HttpURLConnection
                 conn.requestMethod = "GET"
                 conn.setRequestProperty("Authorization", "Bearer ${getToken()}")
@@ -87,7 +87,7 @@ class ChatActivity : AppCompatActivity() {
     private fun sendMessage(text: String) {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/channels/$channelName/messages")
+                val url = URL("http://mychat.fgontier.fr/channels/$channelName/messages")
                 val conn = url.openConnection() as HttpURLConnection
                 conn.requestMethod = "POST"
                 conn.setRequestProperty("Content-Type", "application/json")
@@ -118,7 +118,7 @@ class ChatActivity : AppCompatActivity() {
     private fun joinChannel() {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/channels/$channelName/members")
+                val url = URL("http://mychat.fgontier.fr/channels/$channelName/members")
                 val conn = url.openConnection() as HttpURLConnection
                 conn.requestMethod = "POST"
                 conn.setRequestProperty("Authorization", "Bearer ${getToken()}")
@@ -136,7 +136,7 @@ class ChatActivity : AppCompatActivity() {
     private fun leaveChannel() {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/channels/$channelName/members/me")
+                val url = URL("http://mychat.fgontier.fr/channels/$channelName/members/me")
                 val conn = url.openConnection() as HttpURLConnection
                 conn.requestMethod = "DELETE"
                 conn.setRequestProperty("Authorization", "Bearer ${getToken()}")

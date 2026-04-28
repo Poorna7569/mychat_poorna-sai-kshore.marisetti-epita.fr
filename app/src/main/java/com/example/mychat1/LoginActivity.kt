@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
     private fun login(username: String, psw: String) {
         Thread {
             try {
-                val url = URL("http://10.0.2.2:8080/login")
+                val url = URL("http://mychat.fgontier.fr/login")
                 val conn = url.openConnection() as HttpURLConnection
 
                 conn.requestMethod = "POST"

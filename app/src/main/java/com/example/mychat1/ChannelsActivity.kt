@@ -33,7 +33,7 @@ class ChannelsActivity : AppCompatActivity() {
         Thread {
             try {
                 val token = getSharedPreferences("MyChat", MODE_PRIVATE).getString("token", "")
-                val url = URL("http://10.0.2.2:8080/channels")
+                val url = URL("http://mychat.fgontier.fr/channels")
                 val conn = url.openConnection() as HttpURLConnection
                 conn.setRequestProperty("Authorization", "Bearer $token")
 
