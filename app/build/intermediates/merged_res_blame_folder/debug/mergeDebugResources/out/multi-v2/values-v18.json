@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat1.app-mergeDebugResources-33:/values-v18/values-v18.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-29:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\9.2.1\\transforms\\73467529376bb969353176937d2c3722\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\poorna\\.gradle\\caches\\9.2.1\\transforms\\d687e04c839a024d96082566d1dcda5f\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
