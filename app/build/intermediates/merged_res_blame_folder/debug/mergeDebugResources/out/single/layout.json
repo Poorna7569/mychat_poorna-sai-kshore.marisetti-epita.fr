@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-mergeDebugResources-30:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-main-33:\\layout\\activity_register.xml"
+        "merged": "com.example.mychat1.app-mergeDebugResources-30:/layout/activity_register.xml",
+        "source": "com.example.mychat1.app-main-33:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-mergeDebugResources-30:\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-main-33:\\layout\\activity_chat.xml"
+        "merged": "com.example.mychat1.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.mychat1.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.mychat.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.example.mychat.app-main-33:/layout/activity_main.xml"
+        "merged": "com.example.mychat1.app-mergeDebugResources-30:/layout/activity_channels.xml",
+        "source": "com.example.mychat1.app-main-33:/layout/activity_channels.xml"
     },
     {
-        "merged": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-mergeDebugResources-30:\\layout\\activity_channels.xml",
-        "source": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-main-33:\\layout\\activity_channels.xml"
+        "merged": "com.example.mychat1.app-mergeDebugResources-30:/layout/activity_login.xml",
+        "source": "com.example.mychat1.app-main-33:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-mergeDebugResources-30:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\poorna\\.gradle\\daemon\\9.2.1\\com.example.mychat.app-main-33:\\layout\\activity_login.xml"
+        "merged": "com.example.mychat1.app-mergeDebugResources-30:/layout/activity_chat.xml",
+        "source": "com.example.mychat1.app-main-33:/layout/activity_chat.xml"
     }
 ]

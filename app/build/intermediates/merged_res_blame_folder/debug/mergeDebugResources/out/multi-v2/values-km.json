@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-29:/values-km/values-km.xml",
+            "outputFile": "com.example.mychat1.app-mergeDebugResources-29:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\poorna\\.gradle\\caches\\9.2.1\\transforms\\d687e04c839a024d96082566d1dcda5f\\workspace\\transformed\\appcompat-1.6.1\\res\\values-km\\values-km.xml",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-20:12
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\46a223402a410f06370174d3c544ce0b\workspace\transformed\viewbinding-8.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\709e6fc07460e705590597fab918c063\workspace\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\poorna\.gradle\caches\9.2.1\transforms\cd305431344ece8c5167bffa0dac09b3\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -47,7 +47,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\ba5a6eba3b9069909006ad0e7356d08a\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\b2e7ee5a825b84a20b4f4c383d49c321\workspace\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:3:5-33
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml
@@ -55,9 +55,17 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\poorna\
 		INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:5:5-18:19
-INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:5:5-18:19
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:8:5-37:19
+INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:8:5-37:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\709e6fc07460e705590597fab918c063\workspace\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\709e6fc07460e705590597fab918c063\workspace\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\poorna\.gradle\caches\9.2.1\transforms\cd305431344ece8c5167bffa0dac09b3\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -79,29 +87,53 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\poorna\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:9:9-44
-activity#com.example.mychat.MainActivity
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:10:9-17:20
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:12:9-44
+activity#com.example.mychat1.LoginActivity
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:13:9-20:20
 	android:exported
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:12:13-36
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:11:13-41
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:14:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.mychat1.MainActivity
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:22:9-24:39
+	android:exported
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:23:13-41
+activity#com.example.mychat1.RegisterActivity
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:26:9-28:39
+	android:exported
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:27:13-45
+activity#com.example.mychat1.ChannelsActivity
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:30:9-32:39
+	android:exported
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:31:13-45
+activity#com.example.mychat1.ChatActivity
+ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:34:9-36:39
+	android:exported
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml:35:13-41
 uses-sdk
 INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\poorna\OneDrive\Desktop\mychat_poorna-sai-kshore.marisetti-epita.fr\app\src\main\AndroidManifest.xml
@@ -222,7 +254,7 @@ ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\tran
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.mychat1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
@@ -232,7 +264,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.mychat1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\poorna\.gradle\caches\9.2.1\transforms\d1b65b3819d472d062e05b9467149bdd\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94

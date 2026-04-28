@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-29:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.mychat1.app-mergeDebugResources-29:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\poorna\\.gradle\\caches\\9.2.1\\transforms\\d1b65b3819d472d062e05b9467149bdd\\workspace\\transformed\\core-1.12.0\\res\\values-zh-rHK\\values-zh-rHK.xml",

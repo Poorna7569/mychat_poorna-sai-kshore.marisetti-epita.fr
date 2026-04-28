@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mychat"
+    namespace = "com.example.mychat1"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mychat"
+        applicationId = "com.example.mychat1"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
