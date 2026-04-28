@@ -25,3 +25,4 @@ layout activity_register
 string app_name
 string hello_world
 style Theme.MyChat
+xml network_security_config

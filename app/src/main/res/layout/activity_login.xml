@@ -24,7 +24,6 @@
         android:layout_height="wrap_content"
         android:text="Login" />
 
-    <!-- ✅ FIXED: Use Button instead of TextView -->
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"

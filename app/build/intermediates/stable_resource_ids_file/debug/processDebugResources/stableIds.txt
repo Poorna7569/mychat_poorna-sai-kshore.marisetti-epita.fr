@@ -1,3 +1,4 @@
+com.example.mychat1:xml/network_security_config = 0x7f110000
 com.example.mychat1:styleable/include = 0x7f100098
 com.example.mychat1:styleable/ViewTransition = 0x7f100097
 com.example.mychat1:styleable/ViewPager2 = 0x7f100095
